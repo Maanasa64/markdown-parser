@@ -20,7 +20,11 @@ public class MarkdownParse {
             closeBracket=markdown.indexOf("]", openBracket);
             openParen=markdown.indexOf("(", closeBracket);
             closeParen=markdown.indexOf(")", openParen);
-            toReturn.add(markdown.substring(openParen + 1, closeParen));
+            if(closeParen-openParen<=1){
+            }
+            else{   
+                toReturn.add(markdown.substring(openParen + 1, closeParen));
+            }
         }
 
         return toReturn;
