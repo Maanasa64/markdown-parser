@@ -23,7 +23,7 @@ public class MarkdownParseTest {
         Path filePath = Path.of("test-file.md");
         String content = Files.readString(filePath);
         ArrayList<String> actual = new ArrayList<>();
-        actual = mark.getLinks(content);
+        actual = MarkdownParse.getLinks(content);
         assertArrayEquals(toReturn.toArray(), actual.toArray());
     }
     @Test
@@ -35,7 +35,7 @@ public class MarkdownParseTest {
         Path filePath = Path.of("test-file2.md");
         String content = Files.readString(filePath);
         ArrayList<String> actual = new ArrayList<>();
-        actual = mark.getLinks(content);
+        actual = MarkdownParse.getLinks(content);
         assertArrayEquals(toReturn.toArray(), actual.toArray());
     }
     @Test
@@ -47,7 +47,7 @@ public class MarkdownParseTest {
         Path filePath = Path.of("test-file3.md");
         String content = Files.readString(filePath);
         ArrayList<String> actual = new ArrayList<>();
-        actual = mark.getLinks(content);
+        actual = MarkdownParse.getLinks(content);
         assertArrayEquals(toReturn.toArray(), actual.toArray());
     }
     @Test
@@ -59,7 +59,7 @@ public class MarkdownParseTest {
         Path filePath = Path.of("test-file4.md");
         String content = Files.readString(filePath);
         ArrayList<String> actual = new ArrayList<>();
-        actual = mark.getLinks(content);
+        actual = MarkdownParse.getLinks(content);
         assertArrayEquals(toReturn.toArray(), actual.toArray());
     }
     @Test
@@ -71,7 +71,7 @@ public class MarkdownParseTest {
         Path filePath = Path.of("test-file5.md");
         String content = Files.readString(filePath);
         ArrayList<String> actual = new ArrayList<>();
-        actual = mark.getLinks(content);
+        actual = MarkdownParse.getLinks(content);
         assertArrayEquals(toReturn.toArray(), actual.toArray());
     }
     @Test
@@ -83,7 +83,7 @@ public class MarkdownParseTest {
         Path filePath = Path.of("test-file6.md");
         String content = Files.readString(filePath);
         ArrayList<String> actual = new ArrayList<>();
-        actual = mark.getLinks(content);
+        actual = MarkdownParse.getLinks(content);
         assertArrayEquals(toReturn.toArray(), actual.toArray());
     }
     @Test
@@ -95,7 +95,7 @@ public class MarkdownParseTest {
         Path filePath = Path.of("test-file7.md");
         String content = Files.readString(filePath);
         ArrayList<String> actual = new ArrayList<>();
-        actual = mark.getLinks(content);
+        actual = MarkdownParse.getLinks(content);
         assertArrayEquals(toReturn.toArray(), actual.toArray());
     }
     @Test
@@ -107,7 +107,7 @@ public class MarkdownParseTest {
         Path filePath = Path.of("test-file8.md");
         String content = Files.readString(filePath);
         ArrayList<String> actual = new ArrayList<>();
-        actual = mark.getLinks(content);
+        actual = MarkdownParse.getLinks(content);
         assertArrayEquals(toReturn.toArray(), actual.toArray());
     }
 }
