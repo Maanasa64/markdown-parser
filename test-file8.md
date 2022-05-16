@@ -1,2 +1,1 @@
-[](a link on the first line)
-[
+[test (link) this shouldn't as a link ](google.com)
